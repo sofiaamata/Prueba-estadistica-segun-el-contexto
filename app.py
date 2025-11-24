@@ -3,14 +3,9 @@ import json
 import requests
 
 # ------------------------------------------------------
-#  URL del archivo items.json (RAW de GitHub)
+#  https://raw.githubusercontent.com/sofiaamata/Prueba-estadistica-segun-el-contexto/refs/heads/main/items.json
 # ------------------------------------------------------
-# Sustituye esta URL por tu RAW oficial de GitHub cuando lo subas.
-url_json = "https://raw.githubusercontent.com/tu_usuario/tu_repo/main/items.json"
-
-# (Temporalmente usando el archivo que subiste aquí)
-# url_json = "https://chat.openai.com/sandbox/api/files/copia/ADA/items.json"
-# ------------------------------------------------------
+url_json = "https://raw.githubusercontent.com/sofiaamata/Prueba-estadistica-segun-el-contexto/refs/heads/main/items.json"
 
 # ------------------------------------------------------
 #   Cargar items desde JSON online
@@ -74,4 +69,8 @@ if st.session_state.mostrar_feedback:
 
     st.info(f"**Explicación:** {pregunta['explicacion']}")
 
-    if st.button("Siguiente
+    if st.button("Siguiente"):
+        st.session_state.indice += 1
+        st.session_state.mostrar_feedback = False
+        st.session_state.respuesta_usuario = None
+        st.rerun()
