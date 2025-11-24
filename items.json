@@ -1,0 +1,102 @@
+[
+  {
+    "pregunta": "¿Qué prueba se usa para comparar la media entre dos grupos independientes con normalidad?",
+    "opciones": [
+      "U de Mann–Whitney",
+      "t de Student para muestras independientes",
+      "Chi-cuadrada"
+    ],
+    "correcta": 1,
+    "explicacion": "La t de Student para muestras independientes compara medias entre dos grupos con normalidad y varianzas homogéneas."
+  },
+  {
+    "pregunta": "¿Qué prueba usar con dos grupos independientes cuando la variable es ordinal o no hay normalidad?",
+    "opciones": [
+      "t de Student",
+      "U de Mann–Whitney",
+      "ANOVA"
+    ],
+    "correcta": 1,
+    "explicacion": "Mann–Whitney es la prueba no paramétrica adecuada para comparar dos grupos independientes."
+  },
+  {
+    "pregunta": "¿Qué prueba usar para dos mediciones pareadas sin normalidad?",
+    "opciones": [
+      "t pareada",
+      "Wilcoxon",
+      "Chi-cuadrada"
+    ],
+    "correcta": 1,
+    "explicacion": "Wilcoxon es la alternativa no paramétrica para comparaciones de muestras relacionadas."
+  },
+  {
+    "pregunta": "¿Qué prueba usar para comparar 3+ grupos independientes con normalidad?",
+    "opciones": [
+      "Kruskal–Wallis",
+      "ANOVA de un factor",
+      "Chi-cuadrada"
+    ],
+    "correcta": 1,
+    "explicacion": "ANOVA compara medias entre 3 o más grupos cuando hay normalidad y homogeneidad."
+  },
+  {
+    "pregunta": "¿Qué prueba usar para comparar 3+ grupos independientes sin normalidad?",
+    "opciones": [
+      "ANOVA",
+      "Kruskal–Wallis",
+      "Regresión lineal"
+    ],
+    "correcta": 1,
+    "explicacion": "Kruskal–Wallis es la prueba no paramétrica para 3+ grupos independientes."
+  },
+  {
+    "pregunta": "¿Qué prueba evalúa asociación entre variables categóricas?",
+    "opciones": [
+      "Chi-cuadrada",
+      "Pearson",
+      "t de Student"
+    ],
+    "correcta": 0,
+    "explicacion": "Chi-cuadrada evalúa independencia entre dos variables categóricas."
+  },
+  {
+    "pregunta": "¿Qué prueba mide relación lineal entre dos variables continuas?",
+    "opciones": [
+      "Spearman",
+      "Pearson",
+      "Chi-cuadrada"
+    ],
+    "correcta": 1,
+    "explicacion": "Pearson evalúa la relación lineal entre dos variables continuas."
+  },
+  {
+    "pregunta": "¿Qué prueba usar cuando la relación es monótona pero no lineal?",
+    "opciones": [
+      "Pearson",
+      "Spearman",
+      "Regresión lineal"
+    ],
+    "correcta": 1,
+    "explicacion": "Spearman usa rangos y funciona para relaciones monótonas."
+  },
+  {
+    "pregunta": "¿Qué prueba se usa para predecir una variable continua desde otra continua?",
+    "opciones": [
+      "Regresión lineal simple",
+      "Kruskal–Wallis",
+      "Mann–Whitney"
+    ],
+    "correcta": 0,
+    "explicacion": "La regresión lineal simple modela una variable continua a partir de otra."
+  },
+  {
+    "pregunta": "¿Qué prueba usar si varias celdas tienen frecuencia esperada menor a 5?",
+    "opciones": [
+      "Seguir con χ²",
+      "Fisher exacta",
+      "Mann–Whitney"
+    ],
+    "correcta": 1,
+    "explicacion": "Fisher es adecuada cuando las frecuencias esperadas son muy bajas."
+  }
+]
